@@ -1,0 +1,28 @@
+# Part V — Power-System Analysis
+
+Part IV described the sources of electrical energy one plant at a time. Part V treats the power system as what it really is: one large, interconnected circuit in which a generator in one region, a battery plant in another and a factory load hundreds of kilometres away all interact through the network. The engineer's questions now concern the whole: what voltages and flows result from a given pattern of generation and load, what currents flow when something short-circuits, and whether the system survives the disturbance and settles into a new steady state. Answering them requires a common language, the per-unit system and the bus-and-branch network model, and a set of calculations built on it: power flow for the normal state, fault analysis for the abnormal state, and stability analysis for the transition between them. These are the studies behind every connection agreement, switchgear rating, protection setting and operating limit in a modern grid.
+
+## By the end of this part you should understand
+
+- Why power engineers work in per unit, how base values are chosen so that transformers disappear from the network, and how manufacturers' data are converted to a common system base.
+- How generators, transformers (including off-nominal taps, phase shifts and three-winding units), lines, cables, loads, motors and inverter-based resources are modelled for steady-state, fault and stability studies.
+- How a network is reduced to Thevenin and external equivalents, and how the bus admittance and impedance matrices are built, used and checked.
+- How bus types and the power-balance equations define the load-flow problem, why it is nonlinear, and why a solution may not exist beyond the nose of the P–V curve.
+- How the Gauss–Seidel, Newton–Raphson and fast-decoupled methods solve it, how fast each converges, and how voltage profiles and reactive-power controls are read from and enforced in the solution.
+- How symmetrical and unsymmetrical fault currents are calculated with symmetrical components and sequence networks, and how they set the ratings of breakers, cables and switchgear.
+- How rotor-angle, voltage and frequency stability are defined, assessed, simulated and improved.
+
+## Chapters
+
+| Chapter | Central question | What it delivers |
+|---|---|---|
+| [Chapter 17 — Per-Unit Systems and Network Modeling](17-per-unit-systems-and-network-modeling.md) | How is a system with many voltage levels and many kinds of equipment turned into one network that can be analysed? | Per-unit quantities and base values, change of base, single-line diagrams, equipment models, Thevenin and Kron reduction, the bus admittance and impedance matrices, data preparation and validation |
+| [Chapter 18 — Power-Flow Analysis](18-power-flow-analysis.md) | What voltages and flows result when loads and generators are specified as powers, and how are they kept within limits? | Bus types, power-balance equations, Gauss–Seidel, Newton–Raphson and fast-decoupled solutions, nose curves, voltage limits, reactive-power and tap-changer control, convergence and contingency analysis |
+| [Chapter 19 — Fault Analysis](19-fault-analysis.md) | How large are the currents when a network is short-circuited, and what ratings must equipment have to survive them? | Short-circuit transients, symmetrical faults, symmetrical components and sequence networks, unsymmetrical faults, fault-current calculation, equipment fault ratings, fault location |
+| [Chapter 20 — Power-System Stability](20-power-system-stability.md) | Will the system stay in synchronism, hold its voltage and arrest its frequency after a disturbance? | Rotor-angle, voltage and frequency stability, small-signal and transient stability, disturbance response, stability margins, improvement measures, simulation and its interpretation |
+
+## How this part connects to the rest of the book
+
+Part V turns the hardware of earlier parts into network models. The transformer equivalent circuits and vector groups of [Chapter 4](../part-2-transformers-and-electrical-machines/04-transformers.md), the induction-motor model of Chapter 6 and the synchronous-machine reactances, capability and power-angle relations of [Chapter 7](../part-2-transformers-and-electrical-machines/07-synchronous-machines.md) become per-unit equipment models; the grid structure of [Chapter 13](../part-4-power-generation/13-power-system-structure.md) and the generation and storage plants of Chapters 14–16 supply the buses and injections. Looking forward, Part VI uses the fault currents of Chapter 19 to set protection (Chapter 23) and the line parameters it develops (Chapter 21) to refine these models; distribution feeders, with their high R/X ratios and unbalance, extend the power-flow methods in Chapter 22. Part VII applies power flow and stability to renewable integration and smart grids (Chapters 26 and 27), and Part VIII uses fault levels and voltage drops in safety and design (Chapters 29 and 30).
+
+Part V rests on two sibling books. Phasors, complex power, three-phase circuits, nodal analysis, two-port and transmission-line theory, and the Laplace-domain and feedback methods used in stability analysis come from *[Circuits, Signals and Communications](https://github.com/The-Studio-of-Sadiq/Circuits-Signals-and-Communications)*, Chs. 3, 8–10, 12, 14 and 33–35. Rigid-body rotation, which underlies the swing equation, comes from *[Engineering Physics: Top Down](https://github.com/The-Studio-of-Sadiq/Engineering-Physics)*, Chs. 9 and 19. The numerical methods themselves, Newton's method, sparse linear algebra and the integration of differential equations, belong to *The Mathematics Universe*.

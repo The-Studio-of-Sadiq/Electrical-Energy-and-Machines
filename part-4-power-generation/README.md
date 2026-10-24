@@ -1,0 +1,27 @@
+# Part IV — Power Generation
+
+Parts I–III built the converters one at a time: the magnetic circuit, the transformer, the induction, synchronous and special machines, and the drives that control them. Part IV puts them to work at the scale of a nation. It begins with the structure of the power system as a whole, then follows energy into it from every source: conventional plant through steam and gas turbines and hydro runners, renewable plant often through power electronics rather than a rotating generator, and storage that moves energy in time. In every case the questions are the same: how much energy is available, how efficiently it is converted, how fast and how predictably the plant can respond, what it costs and what it emits, and what the plant looks like to the network it connects to.
+
+## By the end of this part you should understand
+
+- How a power system is organised into generation, transmission and distribution, why it uses the voltage levels, meshed and radial topologies and substation arrangements it does, and where DC wins over AC.
+- How load curves, load factor, diversity, N-1 security, adequacy measures (LOLE) and distribution indices (SAIFI, SAIDI) are used to plan and operate the system, and how a screening curve gives a first estimate of the least-cost generation mix.
+- How steam, gas-turbine, combined-cycle, hydro and nuclear plants convert their primary energy, what limits their efficiency and flexibility, and how heat rate, fuel price and carbon price set their place in the merit order.
+- How the electrical side of a power station works: generators, excitation, governors and droop, capability curves and auxiliary power.
+- How photovoltaic, wind, small hydro, biomass and geothermal plants are designed and rated, how a resource is assessed and turned into P50 and P90 energy estimates, and what capacity factor, capacity credit and forecast error mean for the system.
+- How batteries, supercapacitors, flywheels, pumped hydro, thermal stores and hydrogen are rated, managed, compared on cost and kept safe.
+
+## Chapters
+
+| Chapter | Central question | What it delivers |
+|---|---|---|
+| [Chapter 13 — Power-System Structure](13-power-system-structure.md) | How is a power system organised from generator to socket, and how are demand, reliability and growth quantified? | Voltage levels, meshed and radial architecture, components and substations, AC versus DC, power flow, load curves, N-1 and reliability indices, resilience, screening-curve planning |
+| [Chapter 14 — Conventional Generation](14-conventional-generation.md) | How do thermal, hydro and nuclear plants turn a primary resource into electricity, and what sets their efficiency and flexibility? | Steam conditions, real gas turbines and ambient derating, combined cycles, hydro turbines and water hammer, reactors and decay heat, generators and droop, heat rate and merit order, auxiliaries, emissions and capture |
+| [Chapter 15 — Renewable Energy Systems](15-renewable-energy-systems.md) | How are sun, wind, water, biomass and geothermal heat converted, and how much energy do they deliver, how predictably? | PV string and inverter design, the Betz limit and wind-generator types, run-of-river design flow, biomass CHP, geothermal plants, P50 and P90, performance ratio, capacity factor and credit, variability and forecasting |
+| [Chapter 16 — Energy Storage](16-energy-storage.md) | How is electrical energy moved in time, and which storage technology suits which job? | Battery chemistries, energy and power ratings, battery management, state of charge and state of health, supercapacitors, flywheels, pumped hydro, thermal storage, hydrogen, and the economics and safety of storage |
+
+## How this part connects to the rest of the book
+
+Part IV draws on everything before it. The synchronous generator of [Chapter 7](../part-2-transformers-and-electrical-machines/07-synchronous-machines.md) is the heart of every conventional plant; the induction and permanent-magnet machines of Chapters 6 and 8 reappear as wind generators; the thermal ratings of Chapter 9 set generator limits; and the converter control of [Chapter 12](../part-3-motor-drives/12-ac-motor-drives.md) underlies every inverter that connects a PV array, a wind turbine or a battery. Looking forward, Part V turns the structure of Chapter 13 into per-unit models, power flow, fault and stability calculations (Chapters 17–20) in which the generators and inverters described here are the active elements; Part VI carries the power through lines, HVDC, distribution and protection; Part VII returns to renewables and storage as grid-integration and smart-grid problems (Chapters 26–28); and Part VIII uses these ratings in electrical design (Chapter 30).
+
+Two sibling books supply the theory this part uses without repeating it. Thermodynamic laws and the Carnot limit, the Rankine and Brayton cycles, heat exchangers, fluid systems as hydraulic circuits, nuclear binding energy and fission, band theory and the solar-cell equations are taken from *[Engineering Physics: Top Down](https://github.com/The-Studio-of-Sadiq/Engineering-Physics)*, Chs. 6, 10, 14, 15 and 19. AC and complex power, three-phase circuits and transmission-line wave theory are taken from *[Circuits, Signals and Communications](https://github.com/The-Studio-of-Sadiq/Circuits-Signals-and-Communications)*, Chs. 9, 10 and 14. Battery materials belong to *The Materials Core*, and inverter circuit internals to *Electronics & Computing*.

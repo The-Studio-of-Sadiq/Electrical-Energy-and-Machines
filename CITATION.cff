@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use or adapt this book, please cite it as below."
+type: dataset
+title: "Electrical Energy and Machines (Book 5 — The Electrical Energy & Machines Core)"
+abstract: >-
+  An open textbook on electrical energy conversion, electromechanical systems,
+  power generation and delivery, and modern energy technologies: magnetic
+  circuits, transformers, electrical machines and drives, generation and
+  storage, power-system analysis, transmission, distribution, protection,
+  high-voltage engineering, power quality, smart grids, electrical safety and
+  design. 8 parts, 30 chapters and 174 computed figures, written in Markdown
+  and LaTeX, with a typeset PDF and an MCP server.
+authors:
+  - given-names: "Golam Kuadir Khan"
+    family-names: "Prince"
+repository-code: "https://github.com/The-Studio-of-Sadiq/Electrical-Energy-and-Machines"
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-24"
+keywords:
+  - electrical engineering
+  - electrical machines
+  - transformers
+  - motor drives
+  - power systems
+  - power-system protection
+  - renewable energy
+  - energy storage
+  - power quality
+  - electrical safety
+  - textbook
