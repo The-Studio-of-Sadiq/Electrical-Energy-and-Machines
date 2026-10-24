@@ -91,7 +91,7 @@ write(
 
 **magnetic circuits → energy conversion → transformers and machines → drives → generation and storage → power-system analysis → transmission, distribution and protection → power quality and the modern grid → safety and design practice.**
 
-One idea runs through all of it: energy stored in a magnetic field or carried through a network is converted with losses, and those losses set efficiency, temperature and rating. The co-energy of Part I becomes the torque of Part II, the drive control of Part III, the generator of Part IV, the swing equation of Part V, the fault duty of Part VI and the grid-code requirement of Part VII.
+One idea runs through all of it: energy stored in a magnetic field or carried through a network is converted with losses, and those losses set efficiency, temperature and rating. The co-energy of Part I becomes the torque of Part II, the drive control of Part III, the generator of Part IV, the swing equation of Part V, the fault duty of Part VI, the grid-code requirement of Part VII and the protective-device rating of Part VIII.
 
 ## The method
 
