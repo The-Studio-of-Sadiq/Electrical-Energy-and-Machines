@@ -3,6 +3,7 @@
 [![Check book](https://github.com/The-Studio-of-Sadiq/Electrical-Energy-and-Machines/actions/workflows/check.yml/badge.svg)](https://github.com/The-Studio-of-Sadiq/Electrical-Energy-and-Machines/actions/workflows/check.yml)
 [![Release](https://github.com/The-Studio-of-Sadiq/Electrical-Energy-and-Machines/actions/workflows/release.yml/badge.svg)](https://github.com/The-Studio-of-Sadiq/Electrical-Energy-and-Machines/actions/workflows/release.yml)
 [![PDF](https://img.shields.io/badge/PDF-600%20pages-red.svg)](pdf/Electrical-Energy-and-Machines.pdf)
+[![Wiki](https://img.shields.io/badge/wiki-5%20pages-blue.svg)](https://github.com/The-Studio-of-Sadiq/Electrical-Energy-and-Machines/wiki)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 ![Electrical Energy and Machines](docs/social-preview.png)
@@ -13,7 +14,7 @@ Electrical energy conversion, electromechanical systems, power generation and de
 
 The book picks up where its siblings stop. [*Engineering Physics*](https://github.com/The-Studio-of-Sadiq/Engineering-Physics) carries Maxwell's equations down to the quasi-static limit, lumped elements and the transformer and gyrator; [*Circuits, Signals and Communications*](https://github.com/The-Studio-of-Sadiq/Circuits-Signals-and-Communications) supplies phasors, AC power, three-phase circuits, transmission-line waves and control theory. This book cites those results with links to the exact sections and spends its pages on what they do not cover: real cores, windings, machines, drives, plants and networks, with the approximations, materials, ratings and failure modes that decide whether they work.
 
-**Read the book as a PDF:** [`pdf/Electrical-Energy-and-Machines.pdf`](pdf/Electrical-Energy-and-Machines.pdf) or from the [latest release](https://github.com/The-Studio-of-Sadiq/Electrical-Energy-and-Machines/releases/latest)
+**Read the book as a PDF:** [`pdf/Electrical-Energy-and-Machines.pdf`](pdf/Electrical-Energy-and-Machines.pdf) or from the [latest release](https://github.com/The-Studio-of-Sadiq/Electrical-Energy-and-Machines/releases/latest) · **Wiki:** [chapter guide, figures, tooling](https://github.com/The-Studio-of-Sadiq/Electrical-Energy-and-Machines/wiki)
 
 ## Contents
 
